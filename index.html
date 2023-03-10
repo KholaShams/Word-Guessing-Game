@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="heading">
+            <h1>WELCOME TO THE WORD GUESSING GAME!</h1>
+        </div>
+        <div class="context">
+            <p>Enter your word guess</p>
+        </div>
+        <div class="input_sec">
+            <input type="text" id= "guess" placeholder="enter the word guess">
+        </div>
+        <div id="hint">
+
+        </div>
+        <br>
+        <div class="submit">
+            <button onclick="check()">submit</button>
+            <button class = "reset" onclick="reset()"> <a href="http://127.0.0.1:5500/index.html">Reset</a></button>
+        </div>
+        <div id="result">
+        </div>
+    </div>
+    
+    <script src="script/script.js"></script>
+
+</body>
+</html>
